@@ -1,0 +1,48 @@
+body {
+    margin: 0px;
+    font-style: italic;
+    color: royalblue;
+    background: linear-gradient(skyblue, wheat);
+}
+
+h1, h4, p {
+    text-shadow: 0 0 1px darkblue;
+}
+
+#underline {
+    border-bottom: 3px solid #3a5a;
+}
+
+#main-img {
+    text-align: center;
+    width: 1600px;
+    height: 300px;
+}
+
+.texts {
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+}
+
+.activities {
+    width: 400px;
+    margin:  0px auto 20px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background: powderblue;
+    color: navy;
+    border-top: 10px solid #3a5a;
+    border-bottom: 10px solid #3a5a;
+    border-radius: 120px;
+}
+
+.activities-img {
+    width: 200px;
+    height: 150px;
+    border-radius: 50%;
+}
